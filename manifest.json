@@ -1,0 +1,22 @@
+{
+  "short_name": "Usus Antiquior",
+  "name": "Usus Antiquior",
+  "icons": [
+    {
+      "src": "maltese-cross-48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "maltese-cross-114.png",
+      "type": "image/png",
+      "sizes": "114x114"
+    },
+    {
+      "src": "maltese-cross-152.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "index.html?launcher=true"
+}
