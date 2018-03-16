@@ -11,21 +11,12 @@
       "src": "img/maltese-cross-72.png",
       "type": "image/png",
       "sizes": "72x72"
-<<<<<<< HEAD
     },
-=======
-    }
->>>>>>> 7ad398b4a6b8c84f4ef8f385f0e463c3c3277763
     {
       "src": "img/maltese-cross-96.png",
       "type": "image/png",
       "sizes": "96x96"
-<<<<<<< HEAD
     },
-=======
-    }
-
->>>>>>> 7ad398b4a6b8c84f4ef8f385f0e463c3c3277763
     {
       "src": "img/maltese-cross-114.png",
       "type": "image/png",
@@ -40,11 +31,7 @@
       "src": "img/maltese-cross-152.png",
       "type": "image/png",
       "sizes": "152x152"
-<<<<<<< HEAD
     },
-=======
-    }
->>>>>>> 7ad398b4a6b8c84f4ef8f385f0e463c3c3277763
     {
       "src": "img/maltese-cross-192.png",
       "type": "image/png",
@@ -55,16 +42,7 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-    {
-      "src": "img/maltese-cross-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
   ],
-<<<<<<< HEAD
   "start_url": "/index.html",
-=======
-  "start_url": "/",
->>>>>>> 7ad398b4a6b8c84f4ef8f385f0e463c3c3277763
   "display": "fullscreen"
 }
