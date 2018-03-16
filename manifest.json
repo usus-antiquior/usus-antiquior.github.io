@@ -1,6 +1,7 @@
 {
   "short_name": "Usus Antiquior",
   "name": "Usus Antiquior",
+  "scope" : ".",
   "icons": [
     {
       "src": "/img/maltese-cross-48.png",
