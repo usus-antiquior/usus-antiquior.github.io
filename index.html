@@ -173,6 +173,14 @@
     <!-- Custom scripts for this template -->
     <script src="js/grayscale.min.js"></script>
 
+    <script>
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker
+           .register('/sw.js')
+           .then(function() { console.log("Service Worker Registered"); });
+}
+</script>
+
   </body>
 
 </html>
