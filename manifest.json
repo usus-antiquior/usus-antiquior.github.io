@@ -1,5 +1,5 @@
 {
-  "short_name": "Usus Antiquior",
+  "short_name": "Usus-Antiquior",
   "name": "Usus Antiquior",
   "icons": [
     {
@@ -58,7 +58,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "/",
   "display": "fullscreen",
   "background_color": "#000000",
   "theme_color": "#a0a051"
