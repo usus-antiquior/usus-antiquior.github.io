@@ -13,6 +13,11 @@
       "sizes": "72x72"
     },
     {
+      "src": "/img/maltese-cross-76.png",
+      "type": "image/png",
+      "sizes": "76x76"
+    },
+    {
       "src": "/img/maltese-cross-96.png",
       "type": "image/png",
       "sizes": "96x96"
