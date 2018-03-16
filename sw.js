@@ -1,10 +1,14 @@
 self.addEventListener('install', function(e) {
  e.waitUntil(
-   caches.open('airhorner').then(function(cache) {
+   caches.open('ususantiquior').then(function(cache) {
      return cache.addAll([
        '/',
        '/index.html'
      ]);
    })
  );
+});
+
+self.addEventListener('fetch', function(e){
+
 });
