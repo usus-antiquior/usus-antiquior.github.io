@@ -4,6 +4,8 @@ self.addEventListener('install', function(e) {
      return cache.addAll([
        '/',
        '/index.html'
+       '/css/grayscale.css'
+       '/js/grayscale.min.js'
      ]);
    })
  );
