@@ -5,7 +5,15 @@ self.addEventListener('install', function(e) {
        '/',
        '/index.html',
        '/css/grayscale.css',
-       '/js/grayscale.min.js'
+       '/css/grayscale.min.css',
+       '/vendor/font-awesome/css/font-awesome.min.css',
+       '/vendor/jquery/jquery.min.js',
+       '/vendor/jquery/jquery.js',
+       '/vendor/bootstrap/js/bootstrap.bundle.min.js',
+       '/vendor/jquery-easing/jquery.easing.min.js',
+       '/vendor/bootstrap/css/bootstrap.min.css',
+       '/vendor/',
+       '/favicon.ico'
      ]);
    })
  );
