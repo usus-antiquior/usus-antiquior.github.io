@@ -42,7 +42,7 @@ self.addEventListener('fetch', function(event) {
         return cache.match(event.request).then(function(matching) {
           var report =
             !matching || matching.status == 404
-              ? return caches.match('index.html')
+              ? Promise.reject('no-match')
               : matching;
           return report;
         });
