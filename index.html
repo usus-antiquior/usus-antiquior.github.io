@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js', {scope: './'}).then(function(registration) {
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+</script>
+
+<script src="js/manup.js"></script>
+
   <head>
 
     <meta charset="utf-8">
@@ -39,7 +54,6 @@
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Usus Antiquior</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -130,8 +144,9 @@
           <div class="col-lg-8 mx-auto">
             <h2>Downloads</h2>
             <br><a href="https://media.musicasacra.com/pdf/missale62.pdf" target="_blank" class="btn btn-default btn-lg">Missal 1962 (pdf)</a>
+            <a href="docs/Ritus-Servandus-ebook.epub" target="_blank" class="btn btn-default btn-lg">Ritus Serv. (ebook)</a>
             <a href="https://propria.org/propers-for-sundays/" target="_blank" class="btn btn-default btn-lg">Printable Propers</a>
-            <a href="http://www.fsspolgs.org/liturgical2.html" target="_blank" class="btn btn-default btn-lg">Chants for Readings</a>
+            <a href="http://www.fsspolgs.org/liturgical2.html" target="_blank" class="btn btn-default btn-lg">Music for Readings</a>
 <!--
             <p>Feel free to leave us a comment on the
               <a href="http://startbootstrap.com/template-overviews/grayscale/">Grayscale template overview page</a>
@@ -144,6 +159,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
+
                 <a href="https://github.com/BlackrockDigital/startbootstrap" target="_blank" class="btn btn-default btn-lg">
                   <i class="fa fa-github fa-fw"></i>
                   <span class="network-name">Github</span>
@@ -175,13 +191,13 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
     <!-- Custom scripts for this template -->
-    <script src="js/grayscale.min.js"></script>
 
+    <script src="js/grayscale.min.js"></script>
 
     <!--
     <script>
+
 
 if('serviceWorker' in navigator) {
   navigator.serviceWorker
@@ -192,6 +208,7 @@ if('serviceWorker' in navigator) {
 </script>
 -->
 
+<<<<<<< HEAD
     <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
@@ -219,6 +236,8 @@ if('serviceWorker' in navigator) {
       firebase.initializeApp(config);
     </script>
 
+=======
+>>>>>>> 04c4c609bfc4d5bb56dd663602c1686bd5befe87
 
   </body>
 

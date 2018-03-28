@@ -215,7 +215,6 @@ a:focus, a:hover {
   transition: all 0.3s ease-in-out;
   text-transform: uppercase;
   border-radius: 0;
-  margin: 3px 0;
 }
 
 .btn-default {
