@@ -62,6 +62,6 @@
   "start_url": "/",
   "lang": "en-US",
   "display": "fullscreen",
-  "background_color": "#000000",
+  "background_color": "#222",
   "theme_color": "#a0a051"
 }
