@@ -7,6 +7,14 @@
   border-radius: 0.25rem !important;
 }
 
-.body {
-  background-color: #FFF;
+.masthead {
+  background-color: #222;
+}
+
+#mainNav {
+  background-color: #222;
+}
+
+body {
+  background-color: #222;
 }
