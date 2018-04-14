@@ -18,3 +18,7 @@
 body {
   background-color: #222;
 }
+
+#mainNav.navbar-shrink {
+  background-color: #222;
+}
