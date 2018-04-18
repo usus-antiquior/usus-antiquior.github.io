@@ -30,3 +30,7 @@ body {
 table {
   margin-bottom: 35px;
 }
+
+.btn-circle {
+  padding: .75rem .75rem !important
+}
