@@ -63,5 +63,7 @@
   "lang": "en-US",
   "display": "fullscreen",
   "background_color": "#222",
-  "theme_color": "#a0a051"
+  "theme_color": "#a0a051",
+  "gcm_sender_id": "482941778795",
+  "gcm_sender_id_comment": "Do not change the GCM Sender ID"
 }
