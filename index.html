@@ -39,6 +39,16 @@ if ('serviceWorker' in navigator) {
     <link href="css/grayscale.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
 
+    <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+    <script>
+      var OneSignal = window.OneSignal || [];
+      OneSignal.push(function() {
+        OneSignal.init({
+          appId: "25695f68-3870-493b-82b8-f5adc0d26d4d",
+        });
+      });
+    </script>
+
   </head>
 
   <body id="page-top">
